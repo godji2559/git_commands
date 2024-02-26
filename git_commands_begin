@@ -11,11 +11,10 @@ git config --global(или system,local) user.name "username"
 git config --global(или system,local)user.email "username"
 
 
-//how to add remote repository and sync. OK?
-
 git remote add origin https://github.com/godji2559/git_commands.git
 git branch -M main
 git push -u origin main
+
 
 
 cat .git/config
@@ -109,7 +108,45 @@ git commit
 git commit -m "Add a welcom script"
 
 
-//
+
+$ git show --pretty=fuller
+commit 102a516366ffb9332236d89c7cb24a2097bae985 (HEAD -> master)
+Author:     godgi2559 <godgi2559@yandex.ru>
+AuthorDate: Sat Feb 24 19:34:10 2024 +0300
+Commit:     godgi2559 <godgi2559@yandex.ru>
+CommitDate: Sat Feb 24 19:34:10 2024 +0300
+
+    Test number 1
+
+    * test 2
+    * test 3
+
+diff --git a/readme.txt b/readme.txt
+new file mode 100644
+index 0000000..da0cef0
+--- /dev/null
++++ b/readme.txt
+@@ -0,0 +1 @@
++Hello, mister
+
+
+mkdir newfolder
+git add newfolder
+
+
+
+//удаляем файлы
+git rm (имя файла)
+git rm -r src (удаляет директорию)
+git add (имя файла)
+git commit -m "clean up" src/script.js
+
+
+//удаляем папку с файлами из index
+
+git rm -r --cached src
+
+
 
 
 
