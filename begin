@@ -148,5 +148,8 @@ git rm -r --cached src
 
 
 
+//переименование файла
+git mv git_commands_begin begin
+
 
 
