@@ -1,0 +1,13 @@
+git remote add origin https://github.com/godji2559/hcie_project.git
+git push -fu origin master
+ 
+
+git init
+
+mkdir newfolder
+
+
+git config --global(или system,local) user.name "username"
+git config --global(или system,local)user.email "username"
+
+
