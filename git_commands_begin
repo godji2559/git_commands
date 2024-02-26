@@ -11,3 +11,9 @@ git config --global(или system,local) user.name "username"
 git config --global(или system,local)user.email "username"
 
 
+//how to add remote repository and sync. OK?
+
+git remote add origin https://github.com/godji2559/git_commands.git
+git branch -M main
+git push -u origin main
+
