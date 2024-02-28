@@ -1,0 +1,15 @@
+//просмотр ветки и просмотр ветки и коммита на который она указывает
+git branch
+git branch -v
+
+
+user@DESKTOP-V6CC4NK MINGW64 /d/HCIE/git_commands (master)
+$ git branch
+* master
+
+user@DESKTOP-V6CC4NK MINGW64 /d/HCIE/git_commands (master)
+$ git branch -v
+* master 464563a how to rename files
+
+
+
