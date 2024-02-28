@@ -12,4 +12,11 @@ $ git branch -v
 * master 464563a how to rename files
 
 
+//для создания ветки и переход на нее
+git branch branch
+git checkout feature
+
+//для создания ветки и сразу переключения на нее(две команды в одной)
+git chechout -b branch
+
 
