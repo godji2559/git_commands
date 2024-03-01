@@ -137,3 +137,16 @@ git branch -D fix
 
 
 git branch fix (номер удаленного коммита - он высветится после удаления ветки)
+
+
+
+
+//смотрим логи
+
+cat .git/logs/HEAD
+
+git reflog (от последних вниз к более старым)
+git reflog --date=iso (вывод с датами)
+
+git branch <имя ветки> 'HEAD@{номер в рефлоге}'
+
