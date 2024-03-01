@@ -81,4 +81,20 @@ git checkout master
 //переключение на путь
 
 git checkout -- master
-l
+
+
+//смотрим логи
+
+git log
+git log --oneline
+git log master --oneline
+
+git show 2702
+
+
+//а чтобы посмотреть коммит на один шаг назад
+
+git show HEAD~ (где ~ это количество шагов назад)
+
+
+
