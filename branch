@@ -120,3 +120,8 @@ git show master:index
 
 git show :/слово
 >>>>>>> branch
+
+
+
+//удаление ветки
+git branch -d fix
