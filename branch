@@ -11,8 +11,3 @@ user@DESKTOP-V6CC4NK MINGW64 /d/HCIE/git_commands (master)
 $ git branch -v
 * master 464563a how to rename files
 
-
-//откатываем этот коммит из мастер в другую ветку. 
-//в мастере его не будет
-//1
-//2
