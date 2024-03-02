@@ -15,6 +15,6 @@ git clean -dxf
 //удаляем коммиты
 
 git reset --hard 2fad
-git reset @HEAD~1
+git reset @~ (@-HEAD, ~ один коммит назад))
 
 
