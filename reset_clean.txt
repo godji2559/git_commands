@@ -17,4 +17,16 @@ git clean -dxf
 git reset --hard 2fad
 git reset --hard @~ (@-HEAD, ~ один коммит назад))
 
+//Чтобы вернуть назад удаленный по ошибке коммит
+
+git reset --hard 4569 (удаленный комит на котором мастер была ранее)
+git reflog master
+
+
+cat .git/ORIG_HEAD
+git reset --hard ORIG_HEAD
+
+
+
+
 
