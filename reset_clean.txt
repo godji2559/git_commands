@@ -35,4 +35,24 @@ git reset --hard ORIG_HEAD
 
 git reset --soft @~
 
+а отменить это
 
+git reset --soft ORIG_HEAD
+
+
+//Но мы ведь сделали отмену коммита для того, чтобы внести изменения. Мы их вносим и добавляем в индекс
+
+git add reset_clean.txt
+
+git commit -C ORIG_HEAD
+
+-C значит что у нового комита будет то же имя и то же время, что и у предыдущего комита, который мы отменили.
+Чтобы в новом исправленном комите было имя комитера и дата
+
+git commit -C ORIG_HEAD --reset-author
+
+
+git show --quiet ORIG_HEAD (предыдущий коммит)
+git show --quiet (коммит который мы только что сделали)
+
+//
