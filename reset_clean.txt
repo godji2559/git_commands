@@ -76,6 +76,6 @@ git commit --amend
 amend отменяет последний коммит и заменяет его индексом.
 Также это можно использовать с флагом
 
-git commit --amend --reset-authit
+git commit --amend --reset-author
 
 
