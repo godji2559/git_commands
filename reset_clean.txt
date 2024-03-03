@@ -55,4 +55,7 @@ git commit -C ORIG_HEAD --reset-author
 git show --quiet ORIG_HEAD (предыдущий коммит)
 git show --quiet (коммит который мы только что сделали)
 
+git show --quiet --pretty=fuller (покажет дату коммита и коммитера, которая будет фактической исправленного коммита)
+
+
 //
