@@ -1,0 +1,10 @@
+git log --pretty=onelilne
+git log --oneline
+
+
+//чтобы смотреть логи с коммитами (что было изменено)
+
+git log --patch
+
+
+
