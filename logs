@@ -17,3 +17,6 @@ git log --grep add --oneline
 
 git log --grep add --oneline -p
 
+
+//чтобы найти кто написал строчку (когда нужно найти того кто сделал ошибку)
+git blame
