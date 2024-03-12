@@ -6,5 +6,14 @@ git log --oneline
 
 git log --patch
 
+//комиты достижимые из всех ссылок
 
+git log --all --graph
+
+
+git log --grep add --oneline
+
+//а если добавить -p то покажет изменения
+
+git log --grep add --oneline -p
 
